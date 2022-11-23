@@ -1,0 +1,35 @@
+.menu .label{
+    -fx-text-fill: white;
+}
+
+.menu .label {
+    -fx-font-size: 14.0 pt;
+    -fx-font-family: "Bookman Old Style";
+    -fx-text-fill: white;
+    -fx-font-weight: bold; 
+    -fx-padding: 10.0px;
+
+}
+.menu .menu-button:hover, .menu.menu-button:focused, .menu .menu-button:showing {
+    -fx-background: black ;
+    -fx-opacity: 0.5;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-background-color: black; 
+    -fx-color:black; 
+    -fx-fill: black;
+    -fx-text-fill: black;
+}
+
+.menu-item .label:hover{
+    -fx-font-size: 14.0 pt;
+    -fx-background: black ;
+    -fx-text-fill: white;
+}
+
+
+.menu-item:hover {
+    -fx-background-color: -fx-focus-color;
+}

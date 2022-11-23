@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX_Notes.jnlp">
+  <information>
+    <title>JavaFX_Notes</title>
+    <vendor>daviiid99</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX_Notes.jar" size="59711" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapplication5.JavaFXApplication5"  name="JavaFX_Notes" />
+  <update check="always"/>
+</jnlp>
